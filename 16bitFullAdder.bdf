@@ -103,7 +103,7 @@ applicable agreement for further details.
 	(output)
 	(rect 1592 232 1768 248)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "S[[15..0]" (rect 90 0 132 12)(font "Arial" ))
+	(text "S[15..0]" (rect 90 0 128 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
