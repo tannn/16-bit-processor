@@ -1,4 +1,4 @@
-vsim MainProject
+vsim AND16bit
 view wave
 add wave A
 add wave B
