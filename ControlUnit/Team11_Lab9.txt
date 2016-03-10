@@ -1,0 +1,30 @@
+Part 1:
+1. Control flags are bits used to tell you something about a number or tell you to do something to a number, 
+like make it negative or show that an operation has overflow or a carry bit. It can also tell you something 
+about the result of an operation, like if it resulted in a zero or a negative number.
+2. The control flags set for an add instruction could be: write_enable = 1, reset = 0, clock = rising edge,
+alu_op = (whatever the operational code is for an add command).
+
+Part 2:
+1. "END IF""
+2. It should be sequential because we want to do some things before we do others. For instance if we 
+are adding two numbers from registers we want to read those registers first and then perform the adding
+operation in the ALU.
+3. "rising_edge(clock)" should return true when the clock is on the rising edge.
+4. 
+signal x: std_logic_vector;
+signal y: std_logic;
+IF(opcode = '01') THEN
+y <= '0'
+ELSE IF (opCode = '10') THEN
+y <= '01'
+ELSE
+x <= '0'
+END IF
+
+Final Questions:
+1. In stage 3 the ALU along with the mux that decides whether to use a second register or an immediate value
+in the operation are used.
+2. 00000
+3. If reset is 1 we go back to stage = 1 and start a new instruction.
+4. rf_write is set to 1.
