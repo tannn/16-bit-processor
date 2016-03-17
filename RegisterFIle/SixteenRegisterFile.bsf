@@ -68,9 +68,9 @@ applicable agreement for further details.
 	(port
 		(pt 0 128)
 		(input)
-		(text "WE[15..0]" (rect 0 0 54 14)(font "Arial" (font_size 8)))
-		(text "WE[15..0]" (rect 21 123 75 137)(font "Arial" (font_size 8)))
-		(line (pt 0 128)(pt 16 128)(line_width 3))
+		(text "WE" (rect 0 0 18 14)(font "Arial" (font_size 8)))
+		(text "WE" (rect 21 123 39 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
 	)
 	(port
 		(pt 192 32)
