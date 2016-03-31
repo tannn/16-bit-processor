@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 48 120 216 136)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "S" (rect 5 0 13 12)(font "Arial" ))
+	(text "S" (rect 5 0 12 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 48 48 216 64)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "One[15..0]" (rect 5 0 57 12)(font "Arial" ))
+	(text "One[15..0]" (rect 5 0 56 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 48 80 216 96)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Zero[15..0]" (rect 5 0 60 12)(font "Arial" ))
+	(text "Zero[15..0]" (rect 5 0 59 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1909,16 +1909,6 @@ applicable agreement for further details.
 	(pt 248 128)
 )
 (connector
-	(text "A[15..0]" (rect 226 40 264 52)(font "Arial" ))
-	(pt 216 56)
-	(pt 280 56)
-)
-(connector
-	(text "B[15..0]" (rect 226 72 264 84)(font "Arial" ))
-	(pt 216 88)
-	(pt 280 88)
-)
-(connector
 	(text "S" (rect 258 112 265 124)(font "Arial" ))
 	(pt 248 128)
 	(pt 280 128)
@@ -2567,5 +2557,17 @@ applicable agreement for further details.
 	(text "B[15]" (rect 482 2128 507 2140)(font "Arial" ))
 	(pt 528 2144)
 	(pt 472 2144)
+)
+(connector
+	(text "A[15..0]" (rect 226 40 264 52)(font "Arial" ))
+	(pt 216 56)
+	(pt 304 56)
+	(bus)
+)
+(connector
+	(text "B[15..0]" (rect 226 72 264 84)(font "Arial" ))
+	(pt 216 88)
+	(pt 304 88)
+	(bus)
 )
 (junction (pt 248 128))
