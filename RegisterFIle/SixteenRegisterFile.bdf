@@ -4,7 +4,7 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2012 Altera Corporation
+Copyright (C) 1991-2011 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -1883,17 +1883,9 @@ applicable agreement for further details.
 	(pt -112 -24)
 )
 (connector
-	(pt -304 224)
-	(pt -296 224)
-)
-(connector
 	(text "reset" (rect -302 208 -278 220)(font "Arial" ))
 	(pt -296 224)
 	(pt -240 224)
-)
-(connector
-	(pt -304 256)
-	(pt -296 256)
 )
 (connector
 	(text "clock" (rect -302 240 -277 252)(font "Arial" ))
@@ -1901,19 +1893,9 @@ applicable agreement for further details.
 	(pt -240 256)
 )
 (connector
-	(pt -304 304)
-	(pt -296 304)
-	(bus)
-)
-(connector
 	(text "dataD[15..0]" (rect -302 288 -241 300)(font "Arial" ))
 	(pt -296 304)
 	(pt -240 304)
-	(bus)
-)
-(connector
-	(pt -304 184)
-	(pt -296 184)
 	(bus)
 )
 (connector
@@ -1923,19 +1905,9 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt -296 480)
-	(pt -288 480)
-	(bus)
-)
-(connector
 	(text "regS[3..0]" (rect -294 464 -246 476)(font "Arial" ))
 	(pt -288 480)
 	(pt -208 480)
-	(bus)
-)
-(connector
-	(pt -296 528)
-	(pt -288 528)
 	(bus)
 )
 (connector
@@ -1945,12 +1917,7 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
+	(text "WE" (rect -286 552 -269 564)(font "Arial" ))
 	(pt -288 568)
 	(pt -208 568)
 )
-(junction (pt -296 224))
-(junction (pt -296 256))
-(junction (pt -296 304))
-(junction (pt -296 184))
-(junction (pt -288 480))
-(junction (pt -288 528))

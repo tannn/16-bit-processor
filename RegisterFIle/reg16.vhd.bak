@@ -15,7 +15,7 @@ BEGIN
 	BEGIN
 		IF(reset = '1') THEN	
 			output <= (OTHERS =>'0');
-		ELSIF(falling_edge(Clock)) THEN
+		ELSIF(rising_edge(Clock)) THEN
 			IF(enable = '1') THEN
 				output <= data;
 			END IF;
