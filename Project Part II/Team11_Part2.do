@@ -1,21 +1,38 @@
-vsim Team11_Part2 
+vsim Processor 
 
-add wave RA
-add wave RB
-add wave RM
-add wave RZ
-add wave Ry
-add wave PC
+add wave Instruction
 add wave IR
-add wave clock 
-add wave reset
+add wave RegS
+add wave RegT
+add wave DataS
+add wave DataT
+add wave InA
+add wave InB
+add wave ALU_Out
+add wave RB_Out
+add wave RM_Out
+add wave RZ_Out
+add wave Ry_Out
+add wave N_Out
+add wave C_Out
+add wave V_Out
+add wave Z_Out
+add wave Clock 
+add wave Reset
+add wave IR_Enable
+add wave mfc
+add wave b_Select
+add wave ALU_op
+add wave Immediate
+add wave rf_write
+add wave b_inv
 
-force clock 0 0, 1 10 -repeat 20
-force reset 1 0, 0 100  
+force Clock 0 0, 1 50 -repeat 100
+force Reset 1 0, 0 500  
 force mfc 1 0
-force Cond 1111
 
-force IR 010010000100100000000000 100, 010010000100110000000000 200, 000110000100110010000000 300, 001000000100100101000000 400, 000100000100110010000000 500, 000010000101010011000000 600, 000000000101000011000000 700
 
-run 800
+force Instruction 010010000100100000000000  500, 010010000100110000000000 1000, 000110000100110010000000 1500, 001000000101010010000000 2000, 000100000100110010000000 2500, 000010000100110101000000 3000, 000000000100110100000000 3500
+
+run 4000
 

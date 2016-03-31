@@ -13,15 +13,12 @@ architecture arch of srcSwitch is
 begin
 	process(opCode)
 	begin
-		if(opCode(4 downto 0) = "01001") then
-			regsOut <= src;
-			regtOut <= dst;
-		elsif(opCode(4 downto 0) = "00100") then
-			regsOut <= src;
-			regtOut <= dst;
-		else
+		if(opCode(4 downto 0) = "00100") then
 			regsOut <= dst;
 			regtOut <= src;
+		else
+			regsOut <= src;
+			regtOut <= dst;
 		end if;
 	end process;
 end arch;
