@@ -84,7 +84,6 @@ ENTITY ControlUnit IS
 						--INC
 						alu_op <= "11"; 
 						b_select <= '1';
-						extend <= "10"; 
 					END IF; 
 				
 				--Stage 4  (Memory Stage)

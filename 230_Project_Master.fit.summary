@@ -1,20 +1,16 @@
-Fitter Status : Successful - Fri Mar 25 20:18:36 2016
-Quartus II 32-bit Version : 12.0 Build 178 05/31/2012 SJ Web Edition
+Fitter Status : Successful - Thu Mar 31 00:33:09 2016
+Quartus II 32-bit Version : 11.1 Build 173 11/01/2011 SJ Web Edition
 Revision Name : 230_Project_Master
 Top-level Entity Name : Processor
-Family : Cyclone IV GX
-Device : EP4CGX75DF27C7
+Family : Cyclone II
+Device : EP2C15AF484C6
 Timing Models : Final
-Total logic elements : 0 / 73,920 ( 0 % )
-    Total combinational functions : 0 / 73,920 ( 0 % )
-    Dedicated logic registers : 0 / 73,920 ( 0 % )
-Total registers : 0
-Total pins : 26 / 343 ( 8 % )
+Total logic elements : 2,411 / 14,448 ( 17 % )
+    Total combinational functions : 2,374 / 14,448 ( 16 % )
+    Dedicated logic registers : 386 / 14,448 ( 3 % )
+Total registers : 386
+Total pins : 229 / 315 ( 73 % )
 Total virtual pins : 0
-Total memory bits : 0 / 4,257,792 ( 0 % )
-Embedded Multiplier 9-bit elements : 0 / 396 ( 0 % )
-Total GXB Receiver Channel PCS : 0 / 8 ( 0 % )
-Total GXB Receiver Channel PMA : 0 / 8 ( 0 % )
-Total GXB Transmitter Channel PCS : 0 / 8 ( 0 % )
-Total GXB Transmitter Channel PMA : 0 / 8 ( 0 % )
-Total PLLs : 0 / 8 ( 0 % )
+Total memory bits : 0 / 239,616 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 52 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

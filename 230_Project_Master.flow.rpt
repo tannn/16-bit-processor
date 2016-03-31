@@ -1,6 +1,6 @@
 Flow report for 230_Project_Master
-Fri Mar 25 20:18:57 2016
-Quartus II 32-bit Version 12.0 Build 178 05/31/2012 SJ Web Edition
+Thu Mar 31 00:33:31 2016
+Quartus II 32-bit Version 11.1 Build 173 11/01/2011 SJ Web Edition
 
 
 ---------------------
@@ -19,7 +19,7 @@ Quartus II 32-bit Version 12.0 Build 178 05/31/2012 SJ Web Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2012 Altera Corporation
+Copyright (C) 1991-2011 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -38,26 +38,22 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +------------------------------------+------------------------------------------+
-; Flow Status                        ; Successful - Fri Mar 25 20:18:57 2016    ;
-; Quartus II 32-bit Version          ; 12.0 Build 178 05/31/2012 SJ Web Edition ;
+; Flow Status                        ; Successful - Thu Mar 31 00:33:31 2016    ;
+; Quartus II 32-bit Version          ; 11.1 Build 173 11/01/2011 SJ Web Edition ;
 ; Revision Name                      ; 230_Project_Master                       ;
 ; Top-level Entity Name              ; Processor                                ;
-; Family                             ; Cyclone IV GX                            ;
-; Device                             ; EP4CGX75DF27C7                           ;
-; Timing Models                      ; Final                                    ;
-; Total logic elements               ; 0 / 73,920 ( 0 % )                       ;
-;     Total combinational functions  ; 0 / 73,920 ( 0 % )                       ;
-;     Dedicated logic registers      ; 0 / 73,920 ( 0 % )                       ;
-; Total registers                    ; 0                                        ;
-; Total pins                         ; 26 / 343 ( 8 % )                         ;
+; Family                             ; Cyclone II                               ;
+; Total logic elements               ; 2,411 / 14,448 ( 17 % )                  ;
+;     Total combinational functions  ; 2,374 / 14,448 ( 16 % )                  ;
+;     Dedicated logic registers      ; 386 / 14,448 ( 3 % )                     ;
+; Total registers                    ; 386                                      ;
+; Total pins                         ; 229 / 315 ( 73 % )                       ;
 ; Total virtual pins                 ; 0                                        ;
-; Total memory bits                  ; 0 / 4,257,792 ( 0 % )                    ;
-; Embedded Multiplier 9-bit elements ; 0 / 396 ( 0 % )                          ;
-; Total GXB Receiver Channel PCS     ; 0 / 8 ( 0 % )                            ;
-; Total GXB Receiver Channel PMA     ; 0 / 8 ( 0 % )                            ;
-; Total GXB Transmitter Channel PCS  ; 0 / 8 ( 0 % )                            ;
-; Total GXB Transmitter Channel PMA  ; 0 / 8 ( 0 % )                            ;
-; Total PLLs                         ; 0 / 8 ( 0 % )                            ;
+; Total memory bits                  ; 0 / 239,616 ( 0 % )                      ;
+; Embedded Multiplier 9-bit elements ; 0 / 52 ( 0 % )                           ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                            ;
+; Device                             ; EP2C15AF484C6                            ;
+; Timing Models                      ; Final                                    ;
 +------------------------------------+------------------------------------------+
 
 
@@ -66,28 +62,28 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/25/2016 20:17:46 ;
+; Start date & time ; 03/31/2016 00:32:43 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; 230_Project_Master  ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                            ;
-+-------------------------------------+---------------------------------------+--------------------+-------------+------------+
-; Assignment Name                     ; Value                                 ; Default Value      ; Entity Name ; Section Id ;
-+-------------------------------------+---------------------------------------+--------------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 110337781642399.145895506509200       ; --                 ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --                 ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --                 ; --          ; --         ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                  ; --                 ; --          ; --         ;
-; PARTITION_COLOR                     ; 16764057                              ; --                 ; Processor   ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --                 ; Processor   ; Top        ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --                 ; Processor   ; Top        ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --                 ; --          ; --         ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --                 ; --          ; --         ;
-; TOP_LEVEL_ENTITY                    ; Processor                             ; 230_Project_Master ; --          ; --         ;
-+-------------------------------------+---------------------------------------+--------------------+-------------+------------+
++---------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                          ;
++-------------------------------------+---------------------------------+--------------------+-------------+----------------+
+; Assignment Name                     ; Value                           ; Default Value      ; Entity Name ; Section Id     ;
++-------------------------------------+---------------------------------+--------------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 238368711529698.145940236307944 ; --                 ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --                 ; --          ; eda_simulation ;
+; EDA_SIMULATION_RUN_SCRIPT           ; Project Part II/Team11_Part2.do ; --                 ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>             ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS        ; COMMAND_MACRO_MODE              ; --                 ; --          ; eda_simulation ;
+; OPTIMIZE_MULTI_CORNER_TIMING        ; On                              ; Off                ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                        ; --                 ; Processor   ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --                 ; Processor   ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --                 ; Processor   ; Top            ;
+; TOP_LEVEL_ENTITY                    ; Processor                       ; 230_Project_Master ; --          ; --             ;
++-------------------------------------+---------------------------------+--------------------+-------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -95,11 +91,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:06     ; 1.0                     ; 398 MB              ; 00:00:05                           ;
-; Fitter                    ; 00:00:44     ; 1.0                     ; 588 MB              ; 00:00:43                           ;
-; TimeQuest Timing Analyzer ; 00:00:08     ; 1.0                     ; 384 MB              ; 00:00:08                           ;
-; Assembler                 ; 00:00:17     ; 1.0                     ; 388 MB              ; 00:00:17                           ;
-; Total                     ; 00:01:15     ; --                      ; --                  ; 00:01:13                           ;
+; Analysis & Synthesis      ; 00:00:14     ; 1.0                     ; 333 MB              ; 00:00:12                           ;
+; Fitter                    ; 00:00:10     ; 1.0                     ; 367 MB              ; 00:00:10                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 298 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:12     ; 1.0                     ; 384 MB              ; 00:00:10                           ;
+; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 267 MB              ; 00:00:03                           ;
+; Total                     ; 00:00:42     ; --                      ; --                  ; 00:00:37                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -108,10 +105,11 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; Marcus           ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; Marcus           ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; Marcus           ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; Marcus           ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; CSELAB5-041      ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; CSELAB5-041      ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; CSELAB5-041      ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; CSELAB5-041      ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; CSELAB5-041      ; Windows 7 ; 6.1        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -120,8 +118,9 @@ applicable agreement for further details.
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off 230_Project_Master -c 230_Project_Master
 quartus_fit --read_settings_files=off --write_settings_files=off 230_Project_Master -c 230_Project_Master
-quartus_sta 230_Project_Master -c 230_Project_Master
 quartus_asm --read_settings_files=off --write_settings_files=off 230_Project_Master -c 230_Project_Master
+quartus_sta 230_Project_Master -c 230_Project_Master
+quartus_eda --read_settings_files=off --write_settings_files=off 230_Project_Master -c 230_Project_Master
 
 
 
