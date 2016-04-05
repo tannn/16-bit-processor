@@ -1,0 +1,36 @@
+
+
+Z:/230Project-master/230_Project_Master_restored/memFilesProcessor/PC_Temp.vhd
+
+Mar 31 05PM:43:24>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+Z:/230Project-master/230_Project_Master_restored/memFilesProcessor/PC_Temp.vhd
+
+Mar 31 05PM:43:25>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+Z:/230Project-master/230_Project_Master_restored/memFilesProcessor/PC_Temp.vhd
+
+Mar 31 05PM:43:26>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+Z:/230Project-master/230_Project_Master_restored/memFilesProcessor/PC_Temp.vhd
+
+Mar 31 05PM:43:47>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+Z:/230Project-master/230_Project_Master_restored/memFilesProcessor/PC_Temp.vhd
+
+Mar 31 05PM:43:48>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+Z:/230Project-master/230_Project_Master_restored/memFilesProcessor/PC.vhd
+
+Mar 31 05PM:43:57>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+Z:/230Project-master/230_Project_Master_restored/memFilesProcessor/PC_Temp.vhd
+
+Mar 31 05PM:44:00>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
