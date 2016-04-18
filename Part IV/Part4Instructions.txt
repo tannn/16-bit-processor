@@ -1,0 +1,76 @@
+Instructions for Part 4:
+
+ld r2, 20(r0)
+
+(opCode)(cond)(S)(dst)(src)(immed)(T)
+00110 0000 0 0010 0000 10100 1
+0x300829
+
+ld r3, 21(r0)
+
+(opCode)(cond)(S)(dst)(src)(immed)(T)
+00110 0000 0 0011 0000 10101 1
+0x300C2B
+
+add r5, 4
+
+(opCode)(cond)(S)(dst)(src)(immed)(T)
+00011 0000 0 0101 0000 00100 1
+0x181409
+
+add r6, 12
+
+(opCode)(cond)(S)(dst)(src)(immed)(T)
+00011 0000 0 0110 0000 01100 1
+0x181819
+
+ld r4, 0(r2)			LOOP
+
+(opCode)(cond)(S)(dst)(src)(immed)(T)
+00110 0000 0 0100 0010 00000 0
+0x301080
+
+st r5, 0(r3)
+
+(opCode)(cond)(S)(dst)(src)(immed)(T)
+00111 0000 0 0101 0011 00000 0
+0x3814C0
+
+cmp r5, r4 //S bit here set to 1 so it can set flags for jeq instruction
+(opCode)(cond)(S)(dst)(src)(immed)(T)
+00101 0000 1 0101 0100 0000 0
+0x142A80
+
+jeq LEDS //LEDS is 1 instruction ahead
+(opCode)(cond)(label)
+10000 0010 000000000000001
+0x810001
+
+j LOOP //LOOP is 5 instruction back
+10000 0000 111111111111011
+0x807FFB
+		   
+
+st r6, 0(r3)			LEDS
+(opCode)(cond)(S)(dst)(src)(immed)(T)
+00111 0000 0 0110 0011 00000 0
+0x3818C0
+
+ld r4, 0(r2)
+(opCode)(cond)(S)(dst)(src)(immed)(T)
+00110 0000 0 0100 0010 00000 0
+0x301080
+
+cmp r5, r4 //S bit here set to 1 so it can set flags for jeq instruction
+(opCode)(cond)(S)(dst)(src)(immed)(T)
+00101 0000 1 0101 0100 0000 0
+0x142A80
+
+jeq LEDS //LEDS is 4 instruction back
+(opCode)(cond)(label)
+10000 0010 111111111111100
+0x817FFC
+
+j LOOP //LOOP is 10 instruction back
+10000 0000 111111111110110
+0x807FF6
